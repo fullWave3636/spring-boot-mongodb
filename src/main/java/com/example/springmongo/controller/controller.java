@@ -39,7 +39,6 @@ public class controller {
 
     @GetMapping("/read")
     public List<EmployeeModel> read(){
-        System.out.println("====Read====");
         return employeeDAO.findAll();
     }
 
